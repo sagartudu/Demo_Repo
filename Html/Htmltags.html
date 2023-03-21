@@ -1,0 +1,171 @@
+<!---ALL THE TAGS OF THE HTML-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" >
+        <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+        <title>HTML Tags</title>
+        <style>
+            table, th, td{
+                border: 1px solid black;
+            }
+
+            .mydiv{
+                background-color: darkcyan;
+                text-align: center;
+                border: 5px solid brown;
+            }
+        </style>
+    </head>
+
+    <body>
+        <header>
+            <h1 align="center" style="color:brown"><i>All the tags of the html</i></h1>
+        </header>
+        <p>My favorite move is <cite>Star Wars</cite></p>
+        <h3>This is to show you the <em>subscript</em> and the <em>superscript</em> of the text</h3>
+        <p>I like drinking H<sub>2</sub>O.<br> I have a <strong>Realme<sup><i>TM</i></sup></strong>watch.
+            <details><summary>Animals</summary> <p>An animal is a living organism who dont have their own consiousness</p></details>
+        <audio src="C:/Users/Sagar/Downloads/audio.mp3" controls></audio>
+        <button type="button" onclick="alert('Hello World')">Click Here</button>
+        <table>
+                <colgroup>
+                    <col style="background-color: chocolate;">
+                    <col style="background-color: darkgreen;">
+                    <col style="background-color:dodgerblue;">
+                    <col style="background-color:red;">
+                </colgroup>
+           
+            <tr>
+            <caption>Result</caption>
+                <th>Subjects</th>
+                <th>Internal</th>
+                <th>Externals</th>
+                <th>Practicals</th>
+            </tr>
+            <tr>
+                <td>Operating System</td>
+                <td>45</td>
+                <td>97</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Database and management systems</td>
+                <td>47</td>
+                <td>98</td>
+                <td>O</td>
+            </tr>
+            <tr>
+                <td>Computer Organisation and architecture</td>
+                <td>44</td>
+                <td>95</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Theory of Computation</td>
+                <td>42</td>
+                <td>96</td>
+                <td>E</td>
+            </tr>
+            <tr>
+                <td>Data Structure</td>
+                <td>47</td>
+                <td>95</td>
+                <td>O</td>
+            </tr>
+        </table>
+        
+        <p>Best Student award goes to <b> <del>Guatham Alwar</del><ins>Sagar Tudu</ins></b></p>
+        <dialog>This is a dialog box</dialog>
+
+        <div class="mydiv">
+            <h3>This is a div</h3>
+            <p>Div is a<pre>This is a statement written inside        a pre tag</pre> block level element where it will a occupy a  complete block</p>
+        </div>
+
+        <embed type="image/jpg" src="https://images.pexels.com/photos/268533/pexels-photo-268533.jpeg?cs=srgb&dl=pexels-pixabay-268533.jpg&fm=jpg" height="300px" width="450px">
+        <figure>
+            <figcaption>This is a picture of nature</figcaption>
+        </figure>
+        </embed>
+
+        <form style="background-image: url('https://cdn.pixabay.com/photo/2018/08/14/13/23/ocean-3605547__480.jpg'); color: aliceblue;">
+            <fieldset>
+                <legend>My Info</legend>
+                <label for="fname">First Name</label>
+                <input type="text" id="fname" name="fname"></input> <br><br>
+                <label for="lname">Last Name</label>
+                <input type="text" id="lname" name="lname"></input><br><br>
+                <label for="pno">Phone</label>
+                <input type="number" id="pno" name="pno"></input><br><br>
+                <label for="date">D.O.B</label>
+                <input type="date" id="bday" name="bday"><br><br>
+                <button type="button" onmouseleave="alert('Submitted')" >Submit</button>
+            </fieldset>
+        </form>
+            <h1>Web Development</h1>
+            <iframe src="https://css-tricks.com/snippets/css/a-guide-to-flexbox/#aa-backgrounda" title="Google"></iframe>
+            <h5>HTML</h5>
+            <p>The<mark> HyperText</mark> Markup Language or HTML is the standard markup language for documents designed to be displayed in a web browser. It is often assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+            <hr>
+            <h5>CSS</h5>
+            <p>What is CSS? <mark>CSS</mark> the language for describing the presentation of Web pages, including colors, layout, and fonts. It allows one to adapt the presentation to different types of devices, such as large screens, small screens, or printers. CSS is independent of HTML and can be used with any XML-based markup language.</p>
+            <hr>
+            <h5>JavaScript</h5>
+            <p><mark>JavaScript</mark> (JS) is a lightweight, interpreted, or just-in-time compiled programming language with first-class functions. While it is most well-known as the scripting language for Web pages, many non-browser environments also use it, such as Node.js, Apache CouchDB and Adobe Acrobat.</p>
+
+
+
+        <img src="https://cdn-res.keymedia.com/cms/images/us/037/0223_637242926815337822.jpg" usemap="#workmap" alt="workplace" height="270" width="420">
+        <map name="workmap">
+            <area shape="rect" coords="150,5,280,170" alt="laptop" href="laptop.html">
+            <area shape="rect" coords="120,115,140,200" alt="mobile" href="phone.html">
+            <area shape="circle" coords="310, 110, 20" alt="cup" href="https://www.google.com">
+        </map>
+
+
+        <h3>This is a meter</h3>
+        <label for="english" >English: </label>
+        <meter value="0.7">70%</meter><br>
+        <label for="espaniol" >Espaniol: </label> 
+        <meter value="4" min="0" max="10">4 out of 10</meter>
+
+        <!-- optgroup tag for dropdown select menu -->
+        <form action="/optgroup.php">
+            <label for="course" ><b>Choose a course:</b></label>
+            <select id="course" name="course">
+                <optgroup label="Web Development">
+
+                    <option value="html">HTML</option>
+                    <option value="CSS">CSS</option>
+                    <option value="JavaScript">JavaScript</option>
+                </optgroup>
+                <optgroup label="Data Science">
+
+                    <option value="Python">Python</option>
+                    <option value="R">R</option>
+                    <option value="Tensorflow">Tensorflow</option>
+                </optgroup>
+            </select><br><br>
+                <input type="submit" value="submit">
+            </select>
+
+
+            <h2> Progress tag</h2>
+
+            <label for="file">File Download: </label>
+            <progress id="file" max="100" value="32">32%</progress>
+
+            <p><s>Ritesh is a good boy</s></p>
+            <p>That was a joke</p>
+
+        </form>
+
+        <h1>SVG element</h1>
+        <svg width="420" height="150">
+            <rect x="50" y="20" rx="20" ry="20" width="150" height="50" style="fill: red; stroke: black;stroke-width: 5px; opacity: 0.5;"></rect>
+        </svg>
+
+       
+    </body>
+</html>
